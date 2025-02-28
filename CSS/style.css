@@ -4,6 +4,8 @@
     align-items: center;
     text-decoration: none;
     flex-direction: row-reverse;
+    background-color: #262336;
+    color: #555975;
 }
 ul{
     list-style: none;
@@ -36,25 +38,80 @@ li{
 
 }
 .mainparagraph{
-    justify-content: center;
+    text-align: center;
+    color: #555975;
 }
 .maincontainer{
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: blue;
+    background-color: #262336;
+    padding: 40px 100px 90px 100px;
 }
 .mainbutton{
     border-radius: 4px;
     background-color: gray;
     color: white;
     padding: .5%;
+    font-size: sMALLER;
+    border: none;
+    margin-trim: 2px;
 }
 .mainforce{
     font-size: xx-large;
     font-weight: bolder;
     color: white;
+    margin: -17px;
 }
 .topright ul{
     list-style: none;
+}
+.maintop{
+    font-size: large;
+    margin: 10px;
+}
+.mainbottom{
+    font-size: x-large;
+    margin: 14px;
+}
+.midsection{
+    background-color: #f29b66;
+    display: flex;
+}
+.midsection img{
+    border-radius: 60%;
+    
+}
+.gearclass{
+    line-height: 16px;
+    height: 12px;
+    text-align: center;
+}
+.world{
+    line-height: 16px;
+    height: 12px;
+    text-align: center;
+}
+.cloudclass{
+    line-height: 16px;
+    height: 12px;
+    text-align: center;
+}
+.phoneclass{
+    line-height: 16px;
+    height: 10px;
+    text-align: center;
+}
+h4{
+    margin: -1px;
+    font-size: smaller;
+    color: gray;
+}
+h3{
+    margin: 0;
+    color: black;
+}
+.tableone{
+    text-align: center;
+    margin: auto;
 }
