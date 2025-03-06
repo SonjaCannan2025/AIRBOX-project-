@@ -83,24 +83,47 @@ li{
     
 }
 .gearclass{
-    line-height: 16px;
+    line-height: 14px;
     height: 12px;
     text-align: center;
+    margin-bottom: 26px;
+    margin-top: 4px;
+    padding: 20px 20px 10px 10px;
 }
 .world{
-    line-height: 16px;
-    height: 12px;
+    line-height: 14px;
     text-align: center;
+    margin-bottom: 26px;
+    margin-top: 4px;
+    padding: 20px 20px 10px 10px;
+
 }
 .cloudclass{
-    line-height: 16px;
-    height: 12px;
+    line-height: 14px;
     text-align: center;
+    margin-bottom: 26px;
+    margin-top: 4px;
+    padding: 20px 20px 10px 10px;
+    
 }
 .phoneclass{
-    line-height: 16px;
-    height: 10px;
+    line-height: 14px;
+    margin-top: 4px;
+    margin-bottom: 26px;
     text-align: center;
+    padding: 20px 20px 10px 10px;
+}
+.gearpara{
+    margin: 0;
+}
+.cloudpara{
+    margin: 0;
+}
+.worldpara{
+    margin: 0;
+}
+.phonepara{
+    margin: 0;
 }
 h4{
     margin: -1px;
@@ -111,7 +134,269 @@ h3{
     margin: 0;
     color: black;
 }
-.tableone{
+table{
+    border: 1px solid;
+    border-collapse: collapse;
+    margin: 20px auto;
+    vertical-align: center;   
+}
+td{
+    vertical-align: bottom;
     text-align: center;
-    margin: auto;
+    border: 1.5px solid;
+}
+th{
+    border: 1.5px solid;
+    padding: 8px;
+    text-align: center;
+}
+.threesection{
+    display: flex;
+    flex-direction: row;
+    background-color: #e8e8ea;
+    
+
+}
+.onethreesection{
+    height: 14px;
+    flex: 1;
+}
+.twothreesection{
+    height: 14px;
+    flex: 1;
+}
+.threethreesection{
+    height: 14px;
+    flex: 1;
+}
+.fourthreesection{
+    
+    flex: 1;
+}
+
+.columaabutton{
+    color: white;
+    background-color: #ed7443;
+    border-radius: 4px;
+    border: none;
+}
+.trfivecoluma{
+    margin: 0;
+    padding: 0;
+    background-color:white;
+}
+.trthrcoluma{
+    background-color:white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.columna{
+    height: 14px;
+    background-color: #6f6c89;
+}
+.trcoluma{
+    background-color: #6f6c89;.
+    height: 14px;
+}
+.tronecoluma{
+    background-color: white;
+    color: gray;
+    padding: 10px 10px 10px 10px;
+    font-size: small;
+    height: 10px;
+
+}
+.columnb{
+    height: 14px;
+    background-color: #6f6c89;
+}
+.trbcolumb{
+    height: 14px;
+    background-color: #6f6c89;
+}
+.tronecolumb{
+    background-color: white;
+    color: grey;
+}
+.tronecolumb{
+    background-color: white;
+    color: grey;
+}
+.trthrcolumb{
+    background-color: white;
+    color: grey;
+}
+.trfivecolumb{
+    background-color: white;
+    color: grey;
+}
+.tronecolumc{
+    background-color: white;
+    color: grey;
+}
+.trthrcolumc{
+    background-color: white;
+    color: grey;
+}
+.trfivecolumc{
+    background-color: white;
+    color: grey;
+}
+.tronecolumd{
+    color: grey;
+    background-color: white;
+}
+.trthrcolumd{
+    background-color: white;
+    color: grey;
+}
+.trfivecolumd{
+    color: grey;
+    background-color: white;
+}
+.columnc{
+    height: 14px;
+    background-color: #6f6c89;
+}
+.trbcolumd{
+    height: 14px;
+    background-color: #6f6c89;
+}
+.trfourcolumd{
+    color: grey;
+}
+.trthrcolumd{
+    color: grey;
+}
+.trfourcolumc{
+    color: grey;
+}
+.trtwocolumc{
+    color: grey;
+}
+.trfourcolumb{
+    color: grey;
+}
+.twocolumb{
+    color: grey;
+}
+.trfourcoluma{
+    color: grey;
+}
+.trtwocoluma{
+    color: grey;
+}
+.trthrcoluma{
+    color: grey;
+}
+.trtwocolumd{
+    color: grey;
+}
+.columnd{
+    height: 14px;
+    background-color: #6f6c89;
+}
+.trbcolumc{
+    height: 14px;
+    background-color: #6f6c89;
+}
+.columcabutton{
+    color: white;
+    background-color: #ed7443;
+    border-radius: 4px;
+    border: none;
+}
+.columbabutton{
+    color: white;
+    background-color: #ed7443;
+    border-radius: 4px;
+    border: none;
+}
+.columdabutton{
+    color: white;
+    background-color: #ed7443;
+    border-radius: 4px;
+    border: none;
+}
+.fourul{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.fourula{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.fourulb{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.fourulc{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.foursection{
+    display: flex;
+    flex-direction: row;
+    background-color: #262336;
+}
+.fourdivone{
+    flex: 1;
+    padding: 4px 50px 35px 25px;
+    color: grey;
+}
+.fourdivtwo{
+    flex: 1;
+    padding: 4px 50px 35px 25px;
+    color: grey;
+}
+.fourdivthree{
+    flex: 1;
+    padding: 4px 50px 35px 25px;
+    color: grey;
+}
+.fourdivfour{
+    flex: 1;
+    padding: 4px 50px 35px 25px;
+    color: grey;
+}
+.fourbutton{
+    color: white;
+    background-color: #ed7443;
+    border: none;
+    border-radius: 2px;
+    font-size: x-small;
+    padding: 4px 16px 4px 16px;
+}
+.fourbuttona{
+    color: white;
+    background-color: #ed7443;
+    border: none;
+    border-radius: 2px;
+    font-size: x-small;
+    padding: 4px 16px 4px 16px;
+}
+.fourbuttonb{
+    color: white;
+    background-color: #ed7443;
+    border: none;
+    border-radius: 2px;
+    font-size: x-small;
+    padding: 4px 16px 4px 16px;
+}
+.fourbuttonc{
+    color: white;
+    background-color: #ed7443;
+    border: none;
+    border-radius: 2px;
+    font-size: x-small;
+    padding: 4px 16px 4px 16px;
+}
+.footersection{
+    background-color: #1a1921;
 }
